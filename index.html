@@ -12,10 +12,19 @@
   </head>
 
   <body>
+      
     <main id="main">My ID is "main"!</main>
 
     <br />
-
+    <script>
+      
+        const main = document.getElementById('main');
+   
+      main.addEventListener('click', function(event) {
+      alert('I was clicked!');
+      });
+        
+        </script>
     <div>
       <label>Input:</label><input />
     </div>
